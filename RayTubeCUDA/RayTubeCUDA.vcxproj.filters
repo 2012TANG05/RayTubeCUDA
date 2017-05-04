@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{caebf93f-5016-4ebe-b596-1f592d57b251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{0001ad03-5246-4fd8-be2b-579892cdcbe6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Building.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Face.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CalCulation.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingTriangulation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectToArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Transmitter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTool.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffractionOnCPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalExecutionOnCPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FinalExecutionOnGPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IsRaytubesReceivedOnGPU.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathNodeOnGPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PathNodeOnCPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IsRaytubesReceivedOnCPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionWithBuildingCalculationOnGPU.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionWithBuildingCalculationOnCPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionWithTerrainCalculationOnGPU.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionWithTerrainCalculationOnCPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionAndDiffractionWithBuildingCalculationOnGPU.cuh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReflectionAndDiffractionWithBuildingCalculationOnCPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Building.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Face.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BuildingTriangulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectToArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Transmitter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <CudaCompile Include="Calculation.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="BasicTool.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <ClCompile Include="Transition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiffractionOnCPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalExecutionOnCPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalExecutionOnGPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathNodeOnGPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PathNodeOnCPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionWithBuildingCalculationOnCPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionWithTerrainCalculationOnCPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReflectionAndDiffractionWithBuildingCalculationOnCPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Receiver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="IsRaytubesReceivedOnGPU.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="IsRaytubesReceivedOnCPU.cpp">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="ReflectionWithBuildingCalculationOnGPU.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="ReflectionWithTerrainCalculationOnGPU.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+    <CudaCompile Include="ReflectionAndDiffractionWithBuildingCalculationOnGPU.cu">
+      <Filter>源文件</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
